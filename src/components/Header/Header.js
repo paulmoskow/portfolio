@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="header">
-      {location.pathname === '/' ? (
+      {location.pathname === '/portfolio' ? (
         <>
           <div className="header__logo" data-info="Use my contacts to find out more about your opportunities &rarr;">
             <img className="header__logo-icon" src={logo} alt="Logo Paulmoskow" />
@@ -47,10 +47,10 @@ function Header() {
         </>
       ) : (
         <>
-          <NavLink className="link" to="/"><nav className="header__nav-text">&larr; go back</nav></NavLink>
+          <NavLink className="link" to="/portfolio"><nav className="header__nav-text">&larr; go back</nav></NavLink>
         </>
       )
-      }
+    }
 
     </header>
   );
@@ -58,4 +58,3 @@ function Header() {
 
 export default Header;
 
-//        <a href="https://wa.me/+79067077110" className="link" target="_blank"><img alt="WatsApp" className="header__link" src={whatsapp} /></a>

@@ -60,7 +60,7 @@ function Main() {
 
   return(
     <main className='main'>
-      {location.pathname === '/' ? (
+      {location.pathname === '/portfolio' ? (
         <>
           <h2 className="main__title">Web Yourself well</h2>
           <article className='main__container'>
