@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="header">
-      {location.pathname === '/portfolio' ? (
+      {location.pathname === '/portfolio/' ? (
         <>
           <div className="header__logo" data-info="Use my contacts to find out more about your opportunities &rarr;">
             <img className="header__logo-icon" src={logo} alt="Logo Paulmoskow" />
