@@ -47,7 +47,7 @@ function Header() {
         </>
       ) : (
         <>
-          <NavLink className="link" to="/portfolio"><nav className="header__nav-text">&larr; go back</nav></NavLink>
+          <NavLink className="link" to="/portfolio/"><nav className="header__nav-text">&larr; go back</nav></NavLink>
         </>
       )
     }
