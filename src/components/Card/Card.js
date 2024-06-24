@@ -14,7 +14,7 @@ function Card({ card }) {
         </ul>
         <div className='card__item'>
           <video autoPlay muted loop className="card__item_video">
-            <source src={card.video} type='video/mp4' />
+            <source src={card.video} poster={card.poster} type='video/mp4' />
           </video>
         </div>        
       </div>

@@ -5,6 +5,8 @@ import './Main.css';
 import Card from '../Card/Card';
 import infinclub from '../../images/2024-06-15 14-03-34.mp4';
 import portfolio from '../../images/2024-06-21 16-40-06.mp4';
+import infinPoster from '../../images/infin-preloader.jpg';
+import portPoster from '../../images/port-preloader.jpg';
 
 function Main() {
 
@@ -21,6 +23,7 @@ function Main() {
     dataItemTwo: '',
     dataItemThree: '',
     dataItemFour: '',
+    poster: '',
     video: '' 
   });
 
@@ -35,6 +38,7 @@ function Main() {
       dataItemTwo: 'Responsive design is adaptable to various devices',
       dataItemThree: 'Provides three types of contact methods to facilitate communication',
       dataItemFour: 'Optimizes assets for improved performance and development efficiency',
+      poster: infinPoster,
       video: infinclub 
     });    
 
@@ -52,6 +56,7 @@ function Main() {
       dataItemTwo: 'Helps attract users with a dynamic and responsive interface',
       dataItemThree: 'Enables efficient navigation within the app',
       dataItemFour: 'Ensures version control and enhancing communication with customers',
+      poster: portPoster,
       video: portfolio 
     });    
 
@@ -65,7 +70,7 @@ function Main() {
           <h2 className="main__title">Web Yourself well</h2>
           <article className='main__container'>
             <div className='main__item' onClick={business}>
-              <video autoPlay muted loop className="main__item_video">
+              <video autoPlay muted loop className="main__item_video" poster={infinPoster}>
                 <source src={infinclub} type='video/mp4' />
               </video>
               <div className='main__item_content'>
@@ -74,7 +79,7 @@ function Main() {
               </div>
             </div>
             <div className='main__item' onClick={aboutYou}>
-              <video autoPlay muted loop className="main__item_video">
+              <video autoPlay muted loop className="main__item_video" poster={portPoster}>
                 <source src={portfolio} type='video/mp4' />
               </video>
               <div className='main__item_content'>
