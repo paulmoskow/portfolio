@@ -3,8 +3,10 @@ import { useNavigate, useLocation } from 'react-router-dom';
 
 import './Main.css';
 import Card from '../Card/Card';
-import infinclub from '../../images/2024-06-15 14-03-34.mp4';
-import portfolio from '../../images/2024-06-21 16-40-06.mp4';
+import infinclub from '../../images/infinclub_mp4.mp4';
+import infinclubWebm from '../../images/infinclub_webm.webm';
+import portfolio from '../../images/portfolio_mp4.mp4';
+import portfolioWebm from '../../images/portfolio_webm.webm';
 import infinPoster from '../../images/infin-preloader.jpg';
 import portPoster from '../../images/port-preloader.jpg';
 
@@ -24,7 +26,8 @@ function Main() {
     dataItemThree: '',
     dataItemFour: '',
     poster: '',
-    video: '' 
+    video: '',
+    videoWebm: '' 
   });
 
   const business = () => {
@@ -39,7 +42,8 @@ function Main() {
       dataItemThree: 'Provides three types of contact methods to facilitate communication',
       dataItemFour: 'Optimizes assets for improved performance and development efficiency',
       poster: infinPoster,
-      video: infinclub 
+      video: infinclub,
+      videoWebm: infinclubWebm 
     });    
 
     navigate('/business', {replace: true});
@@ -57,7 +61,8 @@ function Main() {
       dataItemThree: 'Enables efficient navigation within the app',
       dataItemFour: 'Ensures version control and enhancing communication with customers',
       poster: portPoster,
-      video: portfolio 
+      video: portfolio,
+      videoWebm: portfolioWebm 
     });    
 
     navigate('/aboutyou', {replace: true});
@@ -71,6 +76,7 @@ function Main() {
           <article className='main__container'>
             <div className='main__item' onClick={business}>
               <video autoPlay muted loop className="main__item_video" poster={infinPoster}>
+                <source src={infinclubWebm} type='video/webm' />
                 <source src={infinclub} type='video/mp4' />
               </video>
               <div className='main__item_content'>
@@ -80,6 +86,7 @@ function Main() {
             </div>
             <div className='main__item' onClick={aboutYou}>
               <video autoPlay muted loop className="main__item_video" poster={portPoster}>
+                <source src={portfolioWebm} type='video/webm' />
                 <source src={portfolio} type='video/mp4' />
               </video>
               <div className='main__item_content'>
