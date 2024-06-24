@@ -75,7 +75,7 @@ function Main() {
           <h2 className="main__title">Web Yourself well</h2>
           <article className='main__container'>
             <div className='main__item' onClick={business}>
-              <video autoPlay muted loop className="main__item_video" poster={infinPoster}>
+              <video autoPlay muted loop playsInline className="main__item_video" poster={infinPoster}>
                 <source src={infinclubWebm} type='video/webm' />
                 <source src={infinclub} type='video/mp4' />
               </video>
@@ -85,7 +85,7 @@ function Main() {
               </div>
             </div>
             <div className='main__item' onClick={aboutYou}>
-              <video autoPlay muted loop className="main__item_video" poster={portPoster}>
+              <video autoPlay muted playsInline loop className="main__item_video" poster={portPoster}>
                 <source src={portfolioWebm} type='video/webm' />
                 <source src={portfolio} type='video/mp4' />
               </video>

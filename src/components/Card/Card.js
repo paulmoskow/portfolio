@@ -13,7 +13,7 @@ function Card({ card }) {
           <li className='card__list_item git' data-git={card.dataItemFour}>{card.itemFour}</li>
         </ul>
         <div className='card__item'>
-          <video autoPlay muted loop poster={card.poster} className="card__item_video">
+          <video autoPlay muted loop playsInline poster={card.poster} className="card__item_video">
             <source src={card.videoWebm}  type='video/webm' />
             <source src={card.video}  type='video/mp4' />
           </video>
