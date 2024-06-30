@@ -19,7 +19,7 @@ function Header() {
     <header className="header">
       {location.pathname === '/portfolio/' ? (
         <>
-          <div className="header__logo" data-info="Use my contacts to find out more &rarr;">
+          <div className="header__logo" data-info="Use my contacts for more details">
             <img className="header__logo-icon" src={logo} alt="Logo Paulmoskow" />
             <span className="header__logo-icon_sibling">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
             <h1 className="header__logo-text">
@@ -35,7 +35,7 @@ function Header() {
               <span className="header__logo-text_zoom">o</span>
               <span className="header__logo-text_zoom">v</span>
               <br/>
-              <span className="header__logo-text_small">web developer</span>
+              <span className="header__logo-text_small">web engineer</span>
             </h1>
             <span className="header__logo-icon_sibling">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
           </div>

@@ -150,6 +150,8 @@
 .header__link {
   width: 25px;
   height: 25px;
+  object-fit: cover;
+  object-position: center;
 }
 
 .header__link:last-of-type {
@@ -188,7 +190,7 @@
   }
 
   .header__logo:hover {
-    margin-bottom: 65px;
+    margin-bottom: 50px;
   }
 
   .header__contacts {
