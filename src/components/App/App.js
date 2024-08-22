@@ -24,6 +24,13 @@ function App() {
             <Footer/>
           </>
         } />
+        <Route path='/language' element={
+          <>      
+            <Header/>
+            <Main/>
+            <Footer/>
+          </>
+        } />
         <Route path='/aboutyou' element={
           <>      
             <Header/>

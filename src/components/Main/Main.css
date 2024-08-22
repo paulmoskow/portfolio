@@ -23,7 +23,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   position: relative;
   max-width: 99%;
   gap: 30px 40px;
