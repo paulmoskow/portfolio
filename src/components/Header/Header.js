@@ -17,7 +17,7 @@ function Header() {
 
   return (
     <header className="header">
-      {location.pathname === '/portfolio/' ? (
+      {location.pathname === '/' ? (
         <>
           <div className="header__logo" data-info="Use my contacts for more details">
             <img className="header__logo-icon" src={logo} alt="Logo Paulmoskow" />
@@ -41,13 +41,13 @@ function Header() {
           </div>
           <nav className="header__contacts" data-description="Contact me via Email, Telegram or GitHub">
             <img alt="E-mail" className="link header__link" src={email} onClick={sendEmail} />
-            <a href="https://t.me/paulmoskow" className="link" target="_blank"><img alt="Telegram" className="header__link" src={telegram} /></a>
-            <a href="https://github.com/paulmoskow" className="link" target="_blank"><img alt="GitHub" className="header__link" src={github} /></a>
+            <a href="https://t.me/paulmoskow" className="link" target="_blank" rel="noreferrer"><img alt="Telegram" className="header__link" src={telegram} /></a>
+            <a href="https://github.com/paulmoskow" className="link" target="_blank" rel="noreferrer"><img alt="GitHub" className="header__link" src={github} /></a>
           </nav>
         </>
       ) : (
         <>
-          <NavLink className="link" to="/portfolio/"><nav className="header__nav-text">&larr; go back</nav></NavLink>
+          <NavLink className="link" to="/"><nav className="header__nav-text">&larr; go back</nav></NavLink>
         </>
       )
     }

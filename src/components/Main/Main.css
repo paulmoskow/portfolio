@@ -31,6 +31,9 @@
 }
 
 .main__item {
+  display: block;
+  color: inherit;
+  text-decoration: none;
   width: 390px;
   height: 200px;
   border: 1px solid #332E2E;

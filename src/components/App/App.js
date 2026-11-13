@@ -1,49 +1,33 @@
 import './App.css';
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route, Navigate, Outlet } from 'react-router-dom';
 
 import Header from '../Header/Header';
 import Main from '../Main/Main';
+import Project from '../Project/Project';
 import Footer from '../Footer/Footer';
 
-function App() {
+function Layout() {
+  return (
+    <>
+      <Header />
+      <Outlet />
+      <Footer />
+    </>
+  );
+}
 
+function App() {
   return (
     <div className="App">
       <Routes>
-        <Route path='/portfolio/' element={
-          <>      
-            <Header/>
-            <Main/>
-            <Footer/>
-          </>
-        } />
-        <Route path='/business' element={
-          <>      
-            <Header/>
-            <Main/>
-            <Footer/>
-          </>
-        } />
-        <Route path='/language' element={
-          <>      
-            <Header/>
-            <Main/>
-            <Footer/>
-          </>
-        } />
-        <Route path='/aboutyou' element={
-          <>      
-            <Header/>
-            <Main/>
-            <Footer/>
-          </>
-        } />
+        <Route element={<Layout />}>
+          <Route index element={<Main />} />
+          <Route path="project/:slug" element={<Project />} />
+        </Route>
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
     </div>
   );
 }
 
 export default App;
-
-
-
