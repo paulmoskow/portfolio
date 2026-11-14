@@ -1,12 +1,19 @@
+// Full videos play on the project page; short 640px previews play on the home page.
 import infinclub from '../images/infinclub_mp4.mp4';
 import infinclubWebm from '../images/infinclub_webm.webm';
+import infinclubPreview from '../images/infinclub_preview.mp4';
+import infinclubPreviewWebm from '../images/infinclub_preview.webm';
 import portfolio from '../images/portfolio_mp4.mp4';
 import portfolioWebm from '../images/portfolio_webm.webm';
+import portfolioPreview from '../images/portfolio_preview.mp4';
+import portfolioPreviewWebm from '../images/portfolio_preview.webm';
 import vodopad from '../images/vodopad_mp4.mp4';
 import vodopadWebm from '../images/vodopad_webm.webm';
-import infinPoster from '../images/infin-preloader.jpg';
-import portPoster from '../images/port-preloader.jpg';
-import vodoPoster from '../images/vodopad-preloader.jpg';
+import vodopadPreview from '../images/vodopad_preview.mp4';
+import vodopadPreviewWebm from '../images/vodopad_preview.webm';
+import infinPoster from '../images/infin-preloader.webp';
+import portPoster from '../images/port-preloader.webp';
+import vodoPoster from '../images/vodopad-preloader.webp';
 
 // `kind` selects the tooltip style in Card.css (html | css | js | git).
 const projects = [
@@ -22,6 +29,8 @@ const projects = [
     poster: infinPoster,
     video: infinclub,
     videoWebm: infinclubWebm,
+    preview: infinclubPreview,
+    previewWebm: infinclubPreviewWebm,
   },
   {
     slug: 'language',
@@ -35,6 +44,8 @@ const projects = [
     poster: vodoPoster,
     video: vodopad,
     videoWebm: vodopadWebm,
+    preview: vodopadPreview,
+    previewWebm: vodopadPreviewWebm,
   },
   {
     slug: 'aboutyou',
@@ -48,6 +59,8 @@ const projects = [
     poster: portPoster,
     video: portfolio,
     videoWebm: portfolioWebm,
+    preview: portfolioPreview,
+    previewWebm: portfolioPreviewWebm,
   },
 ];
 
