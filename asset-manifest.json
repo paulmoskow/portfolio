@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.041e69c9.css",
-    "main.js": "/portfolio/static/js/main.126e8ab0.js",
+    "main.css": "/portfolio/static/css/main.c28f565b.css",
+    "main.js": "/portfolio/static/js/main.7c0f5b99.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/vodopad_mp4.mp4": "/portfolio/static/media/vodopad_mp4.afb06c495d38a6914247.mp4",
     "static/media/vodopad_webm.webm": "/portfolio/static/media/vodopad_webm.1e6226b9788efae9e272.webm",
@@ -36,12 +36,12 @@
     "static/media/telegram-icon.svg": "/portfolio/static/media/telegram-icon.a75179a4680e947053233657b86bc13e.svg",
     "static/media/github-icon.svg": "/portfolio/static/media/github-icon.294a9b0481a0855a68bcff6b8895cef5.svg",
     "index.html": "/portfolio/index.html",
-    "main.041e69c9.css.map": "/portfolio/static/css/main.041e69c9.css.map",
-    "main.126e8ab0.js.map": "/portfolio/static/js/main.126e8ab0.js.map",
+    "main.c28f565b.css.map": "/portfolio/static/css/main.c28f565b.css.map",
+    "main.7c0f5b99.js.map": "/portfolio/static/js/main.7c0f5b99.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.041e69c9.css",
-    "static/js/main.126e8ab0.js"
+    "static/css/main.c28f565b.css",
+    "static/js/main.7c0f5b99.js"
   ]
 }
