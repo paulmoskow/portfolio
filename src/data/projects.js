@@ -86,7 +86,7 @@ const projects = [
       live: 'https://paulmoskow.github.io/meme-editor/',
       github: 'https://github.com/paulmoskow/meme-editor',
     },
-    title: 'Photo Text Editor',
+    title: 'Online editor for images',
     tags: [
       { kind: 'html', name: 'React', description: 'Component-based interface with a compact toolbar for mobile screens' },
       { kind: 'css', name: 'TypeScript', description: 'Typed code makes the editor easier to maintain and extend' },
