@@ -23,6 +23,14 @@ function Card({ project }) {
           </video>
         </div>
       </div>
+      <div className="card__links">
+        <a className="card__link" href={project.links.live} target="_blank" rel="noopener noreferrer">
+          Live
+        </a>
+        <a className="card__link" href={project.links.github} target="_blank" rel="noopener noreferrer">
+          GitHub
+        </a>
+      </div>
     </article>
   );
 }

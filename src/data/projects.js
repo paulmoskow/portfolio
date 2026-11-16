@@ -15,10 +15,15 @@ import infinPoster from '../images/infin-preloader.webp';
 import portPoster from '../images/port-preloader.webp';
 import vodoPoster from '../images/vodopad-preloader.webp';
 
+// TODO: replace every `links` placeholder below with the real URLs.
 // `kind` selects the tooltip style in Card.css (html | css | js | git).
 const projects = [
   {
     slug: 'business',
+    links: {
+      live: 'https://paulmoskow.github.io/InFinClubConsulting',
+      github: 'https://github.com/paulmoskow/InFinClubConsulting',
+    },
     title: 'Card website for your business',
     tags: [
       { kind: 'html', name: 'HTML', description: 'With semantic tags the website is optimized for search engine visibility' },
@@ -34,6 +39,10 @@ const projects = [
   },
   {
     slug: 'language',
+    links: {
+      live: 'https://vodopad.me/index_en.html',
+      github: 'https://github.com/paulmoskow/vodopad',
+    },
     title: 'Multilingual business website',
     tags: [
       { kind: 'html', name: 'HTML', description: 'A multilingual version contributes to better indexing by search engines' },
@@ -49,6 +58,10 @@ const projects = [
   },
   {
     slug: 'aboutyou',
+    links: {
+      live: 'https://paulmoskow.github.io/portfolio',
+      github: 'https://github.com/paulmoskow/portfolio',
+    },
     title: 'Online portfolio for you',
     tags: [
       { kind: 'html', name: 'HTML', description: 'Responsible for tooltips to enhance user experience (UX)' },
