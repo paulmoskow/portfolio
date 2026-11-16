@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f9fecb9a.css",
-    "main.js": "/portfolio/static/js/main.5e867465.js",
+    "main.css": "/portfolio/static/css/main.041e69c9.css",
+    "main.js": "/portfolio/static/js/main.3ca4e171.js",
     "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
     "static/media/vodopad_mp4.mp4": "/portfolio/static/media/vodopad_mp4.afb06c495d38a6914247.mp4",
     "static/media/vodopad_webm.webm": "/portfolio/static/media/vodopad_webm.1e6226b9788efae9e272.webm",
@@ -9,6 +9,8 @@
     "static/media/infinclub_webm.webm": "/portfolio/static/media/infinclub_webm.db551ba8f71ab42c23bb.webm",
     "static/media/portfolio_mp4.mp4": "/portfolio/static/media/portfolio_mp4.f7a22a55557d0abdbdeb.mp4",
     "static/media/portfolio_webm.webm": "/portfolio/static/media/portfolio_webm.bcd34959c94091995f9d.webm",
+    "static/media/photoeditor_webm.webm": "/portfolio/static/media/photoeditor_webm.d416a2eae61988650962.webm",
+    "static/media/photoeditor_mp4.mp4": "/portfolio/static/media/photoeditor_mp4.6aefc08feabc13bc8744.mp4",
     "static/media/Inter-Bold.woff?v=3.19": "/portfolio/static/media/Inter-Bold.2aa577b251f3bd95109a.woff",
     "static/media/Inter-Black.woff?v=3.19": "/portfolio/static/media/Inter-Black.fd37f7e052bea1018058.woff",
     "static/media/Inter-Regular.woff?v=3.19": "/portfolio/static/media/Inter-Regular.34ed58565339f4f3be40.woff",
@@ -19,11 +21,14 @@
     "static/media/infinclub_preview.webm": "/portfolio/static/media/infinclub_preview.df7fae75c2f133768ffc.webm",
     "static/media/infinclub_preview.mp4": "/portfolio/static/media/infinclub_preview.1fe4fab5b2f6ae07f966.mp4",
     "static/media/vodopad_preview.webm": "/portfolio/static/media/vodopad_preview.d054f2e83823e1a4566e.webm",
+    "static/media/photoeditor_preview.webm": "/portfolio/static/media/photoeditor_preview.8e786e70414674a8e924.webm",
     "static/media/portfolio_preview.webm": "/portfolio/static/media/portfolio_preview.8cb0756afcdd022b79f2.webm",
     "static/media/vodopad-preloader.webp": "/portfolio/static/media/vodopad-preloader.78ed13b62ab7c6871099.webp",
     "static/media/vodopad_preview.mp4": "/portfolio/static/media/vodopad_preview.e757eb6b8fd180138d00.mp4",
     "static/media/portfolio_preview.mp4": "/portfolio/static/media/portfolio_preview.5e434a38193c23883b64.mp4",
     "static/media/Inder-Regular.ttf": "/portfolio/static/media/Inder-Regular.8a2461b6d08b6710e6f8.ttf",
+    "static/media/photoeditor_preview.mp4": "/portfolio/static/media/photoeditor_preview.b7c2be66bc3c70e59277.mp4",
+    "static/media/photoeditor-preloader.webp": "/portfolio/static/media/photoeditor-preloader.9733c398098abdc11546.webp",
     "static/media/infin-preloader.webp": "/portfolio/static/media/infin-preloader.ffaa4258c85820defe4b.webp",
     "static/media/email-icon.svg": "/portfolio/static/media/email-icon.7955fe2fc5c831b2ba99955ac3f6199c.svg",
     "static/media/port-preloader.webp": "/portfolio/static/media/port-preloader.c3093c0e49c11724c50c.webp",
@@ -31,12 +36,12 @@
     "static/media/telegram-icon.svg": "/portfolio/static/media/telegram-icon.a75179a4680e947053233657b86bc13e.svg",
     "static/media/github-icon.svg": "/portfolio/static/media/github-icon.294a9b0481a0855a68bcff6b8895cef5.svg",
     "index.html": "/portfolio/index.html",
-    "main.f9fecb9a.css.map": "/portfolio/static/css/main.f9fecb9a.css.map",
-    "main.5e867465.js.map": "/portfolio/static/js/main.5e867465.js.map",
+    "main.041e69c9.css.map": "/portfolio/static/css/main.041e69c9.css.map",
+    "main.3ca4e171.js.map": "/portfolio/static/js/main.3ca4e171.js.map",
     "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f9fecb9a.css",
-    "static/js/main.5e867465.js"
+    "static/css/main.041e69c9.css",
+    "static/js/main.3ca4e171.js"
   ]
 }
