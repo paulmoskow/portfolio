@@ -16,12 +16,14 @@ function Card({ project }) {
             </li>
           ))}
         </ul>
-        <div className="card__item">
-          <video autoPlay muted loop playsInline poster={project.poster} className="card__item_video">
-            <source src={project.videoWebm} type="video/webm" />
-            <source src={project.video} type="video/mp4" />
-          </video>
-        </div>
+        {project.video && (
+          <div className="card__item">
+            <video autoPlay muted loop playsInline poster={project.poster} className="card__item_video">
+              <source src={project.videoWebm} type="video/webm" />
+              <source src={project.video} type="video/mp4" />
+            </video>
+          </div>
+        )}
       </div>
       <div className="card__links">
         <a className="card__link" href={project.links.live} target="_blank" rel="noopener noreferrer">

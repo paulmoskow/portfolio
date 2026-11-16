@@ -10,10 +10,12 @@ function Main() {
       <article className="main__container">
         {projects.map((project) => (
           <Link key={project.slug} className="main__item" to={`/project/${project.slug}`}>
-            <video autoPlay muted loop playsInline preload="metadata" className="main__item_video" poster={project.poster}>
-              <source src={project.previewWebm} type="video/webm" />
-              <source src={project.preview} type="video/mp4" />
-            </video>
+            {project.preview && (
+              <video autoPlay muted loop playsInline preload="metadata" className="main__item_video" poster={project.poster}>
+                <source src={project.previewWebm} type="video/webm" />
+                <source src={project.preview} type="video/mp4" />
+              </video>
+            )}
             <div className="main__item_content">
               <h2 className="main__item_text">{project.title}</h2>
             </div>

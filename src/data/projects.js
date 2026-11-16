@@ -11,9 +11,14 @@ import vodopad from '../images/vodopad_mp4.mp4';
 import vodopadWebm from '../images/vodopad_webm.webm';
 import vodopadPreview from '../images/vodopad_preview.mp4';
 import vodopadPreviewWebm from '../images/vodopad_preview.webm';
+import photoEditor from '../images/photoeditor_mp4.mp4';
+import photoEditorWebm from '../images/photoeditor_webm.webm';
+import photoEditorPreview from '../images/photoeditor_preview.mp4';
+import photoEditorPreviewWebm from '../images/photoeditor_preview.webm';
 import infinPoster from '../images/infin-preloader.webp';
 import portPoster from '../images/port-preloader.webp';
 import vodoPoster from '../images/vodopad-preloader.webp';
+import photoEditorPoster from '../images/photoeditor-preloader.webp';
 
 // TODO: replace every `links` placeholder below with the real URLs.
 // `kind` selects the tooltip style in Card.css (html | css | js | git).
@@ -74,6 +79,25 @@ const projects = [
     videoWebm: portfolioWebm,
     preview: portfolioPreview,
     previewWebm: portfolioPreviewWebm,
+  },
+  {
+    slug: 'photo-editor',
+    links: {
+      live: 'https://paulmoskow.github.io/meme-editor/',
+      github: 'https://github.com/paulmoskow/meme-editor',
+    },
+    title: 'Photo Text Editor',
+    tags: [
+      { kind: 'html', name: 'React', description: 'Component-based interface with a compact toolbar for mobile screens' },
+      { kind: 'css', name: 'TypeScript', description: 'Typed code makes the editor easier to maintain and extend' },
+      { kind: 'js', name: 'Vite', description: 'Fast development server and optimized production build' },
+      { kind: 'git', name: 'Fabric.js', description: 'Canvas library for placing and styling text over an image, with export to JPG' },
+    ],
+    poster: photoEditorPoster,
+    video: photoEditor,
+    videoWebm: photoEditorWebm,
+    preview: photoEditorPreview,
+    previewWebm: photoEditorPreviewWebm,
   },
 ];
 
