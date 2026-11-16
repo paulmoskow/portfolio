@@ -47,14 +47,14 @@
   justify-content: space-between;  
   width: 85vw;
   margin: 0;
-  padding: 30px 0;
+  padding: 14px 0;
   transition: flex-direction 2s ease;
 }
 
 .header__logo {
   display: flex;
   align-items: center;
-  margin: 30px 0;
+  margin: 0;
   position: relative;
   transition: margin .5s linear;
 }
