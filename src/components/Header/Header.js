@@ -10,19 +10,14 @@ function Header() {
 
   const location = useLocation();
 
-  function sendEmail() {
-      const mailtoLink = `mailto:pavel.moskov@gmail.com`;
-      window.location.href = mailtoLink;
-  };
-
   return (
     <header className="header">
       {location.pathname === '/' ? (
         <>
           <div className="header__logo" data-info="Use my contacts for more details">
             <img className="header__logo-icon" src={logo} alt="Logo Paulmoskow" />
-            <span className="header__logo-icon_sibling">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
-            <h1 className="header__logo-text">
+            <span className="header__logo-icon_sibling" aria-hidden="true">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
+            <h1 className="header__logo-text" aria-label="Pavel Moskov, web engineer">
               <span className="header__logo-text_zoom">P</span>
               <span className="header__logo-text_zoom">a</span>
               <span className="header__logo-text_zoom">v</span>
@@ -37,10 +32,10 @@ function Header() {
               <br/>
               <span className="header__logo-text_small">web engineer</span>
             </h1>
-            <span className="header__logo-icon_sibling">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
+            <span className="header__logo-icon_sibling" aria-hidden="true">&nbsp;&nbsp;&nbsp;&gt;&gt;&gt;&nbsp;&nbsp;</span>
           </div>
           <nav className="header__contacts" data-description="Contact me via Email, Telegram or GitHub">
-            <img alt="E-mail" className="link header__link" src={email} onClick={sendEmail} />
+            <a href="mailto:pavel.moskov@gmail.com" className="link"><img alt="E-mail" className="header__link" src={email} /></a>
             <a href="https://t.me/paulmoskow" className="link" target="_blank" rel="noreferrer"><img alt="Telegram" className="header__link" src={telegram} /></a>
             <a href="https://github.com/paulmoskow" className="link" target="_blank" rel="noreferrer"><img alt="GitHub" className="header__link" src={github} /></a>
           </nav>

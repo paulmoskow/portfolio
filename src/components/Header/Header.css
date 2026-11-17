@@ -107,14 +107,14 @@
 .header__logo-text {
   font-family: 'Inder';
   margin: 0 0 0 6px;
-  font-size: calc(8px + 2vmin);
+  font-size: clamp(1.1rem, .7rem + 1vw, 1.4rem);
   font-weight: 400;
   line-height: 1.21;  
   text-align: center;
 }
 
 .header__logo-text_small {
-  font-size: calc(6px + 2vmin);
+  font-size: clamp(.95rem, .55rem + 1vw, 1.25rem);
   cursor: default;
   margin: 0;
   transition: font-size .5s linear;

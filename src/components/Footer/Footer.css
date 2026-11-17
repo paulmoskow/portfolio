@@ -7,5 +7,5 @@
 }
 
 .footer__text {
-  font-size: calc(6px + 1vmin);
+  font-size: .875rem;
 }

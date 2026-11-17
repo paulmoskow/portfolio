@@ -2,10 +2,12 @@ import { Link } from 'react-router-dom';
 
 import './Main.css';
 import projects from '../../data/projects';
+import useReducedMotion from '../../hooks/useReducedMotion';
 import useTilt from '../../hooks/useTilt';
 
 function ProjectTile({ project, index }) {
   const tilt = useTilt(9);
+  const reducedMotion = useReducedMotion();
 
   return (
     <Link
@@ -15,7 +17,7 @@ function ProjectTile({ project, index }) {
       {...tilt}
     >
       {project.preview && (
-        <video autoPlay muted loop playsInline preload="metadata" className="main__item_video" poster={project.poster}>
+        <video autoPlay={!reducedMotion} muted loop playsInline preload="metadata" className="main__item_video" poster={project.poster}>
           <source src={project.previewWebm} type="video/webm" />
           <source src={project.preview} type="video/mp4" />
         </video>
