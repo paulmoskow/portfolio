@@ -82,6 +82,11 @@
   transform: scale(1.1);
 }
 
+.card__list_item:hover,
+.card__list_item:focus {
+  z-index: 5;
+}
+
 .html:hover::after {
   content: attr(data-html);
   position: absolute;
